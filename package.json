@@ -1,0 +1,23 @@
+{
+  "name": "express-flash-notification-example",
+  "version": "1.0.1",
+  "description": "A sample server utilizing express-flash-notification middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express-flash-notification",
+    "example",
+    "flash",
+  ],
+  "author": "Ascari <ascari.gtz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.13.4",
+    "express-flash-notification": "^0.4.0",
+    "express-session": "^1.13.0",
+    "hogan-express": "^0.5.2"
+  }
+}

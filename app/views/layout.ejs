@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+  <title>express-flash-notification Example</title>
+  <link rel="stylesheet" type="text/css" href="style.css"></li>
+</head>
+<body>
+
+  <!--
+    Heres where notification will be rendered
+  -->
+  <%- locals.flash %>
+
+  <main>
+    <p>Click a button to trigger a flash notification. Reload page to clear notifications.</p>
+    
+    <a href="/alert-1-good">1 Good Notification</a>
+    <a href="/alert-1-bad">1 BAD Notification</a>
+    <a href="/alert-1-ok">1 OK Notification</a>
+    <a href="/alert-3-good">3 Good Notifications</a>
+  </main>
+
+</body>
+</html>
