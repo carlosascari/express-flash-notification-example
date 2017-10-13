@@ -16,7 +16,7 @@ npm install
 ### Usage
 
 ```
-node run server
+node server.js
 ```
 
 Navigate to `http://127.0.0.1:8080/` to test out `express-flash-notification`
