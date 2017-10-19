@@ -9,8 +9,7 @@ const http = require('http');
 const express = require('express');
 const session = require('express-session');
 const HoganExpress = require('hogan-express');
-var flash = require('express-flash-notification')
-//const flash = require('../express-flash-notification');
+const flash = require('express-flash-notification');
 
 const PORT = 8080;
 const app = express();

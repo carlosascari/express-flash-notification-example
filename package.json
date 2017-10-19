@@ -1,6 +1,6 @@
 {
   "name": "express-flash-notification-example",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A sample server utilizing express-flash-notification middleware",
   "main": "index.js",
   "scripts": {
